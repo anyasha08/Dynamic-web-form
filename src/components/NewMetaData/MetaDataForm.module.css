@@ -1,0 +1,59 @@
+.newDataControls {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  .newDataControl {
+    display: flex;      
+    margin: 0.5rem auto;
+  }
+  .newDataControl label {
+    font-weight: bold;
+    width: 30%;
+    margin: 0.5rem;
+    display: block;
+  }
+  .newDataControl select {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 30%;
+  }
+  .newDataColor  {
+    padding: 0% !important;
+    margin-top: 1%;
+  }
+  .newDataControl input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 30%;
+  }
+  .newDataControl textarea {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 29.5%;
+  }
+  
+  .newDataActions {
+    text-align: right;
+  }
+  .invalid {
+    color: #ca3e51;
+  }
+  .invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+  }
+  .invalid select {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+  }
+  .invalidText {
+    padding: 1%;
+  }

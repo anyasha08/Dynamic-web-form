@@ -1,0 +1,45 @@
+.new-data__controls {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  .new-data__control {
+    display: flex;      
+    margin: 0.5rem auto;
+  }
+  .new-data__control label {
+    font-weight: bold;
+    width: 30%;
+    margin: 0.5rem;
+    display: block;
+  }
+  .new-data__control select {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 30%;
+  }
+  .new-data__color  {
+    padding: 0% !important;
+    margin-top: 1%;
+  }
+  .new-data__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 30%;
+  }
+  .new-data__control textarea {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 29.5%;
+  }
+  
+  .new-data__actions {
+    text-align: right;
+  }
